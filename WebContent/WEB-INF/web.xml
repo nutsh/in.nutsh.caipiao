@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>in.nutsh.caipiao</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>CalculatorServelt</display-name>
+    <servlet-name>CalculatorServelt</servlet-name>
+    <servlet-class>com.nutsh.CalculatorServelt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CalculatorServelt</servlet-name>
+    <url-pattern>/CalculatorServelt</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CalculatorServlet1</display-name>
+    <servlet-name>CalculatorServlet1</servlet-name>
+    <servlet-class>com.nutsh.CalculatorServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CalculatorServlet1</servlet-name>
+    <url-pattern>/CalculatorServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TearServlet</display-name>
+    <servlet-name>TearServlet</servlet-name>
+    <servlet-class>com.nutsh.TearServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TearServlet</servlet-name>
+    <url-pattern>/TearServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
